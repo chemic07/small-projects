@@ -1,0 +1,108 @@
+.rhf-frame {
+  height: 650px;
+  background-color: white;
+}
+.ref-container {
+  display: grid;
+  grid-template-rows: 450px 1fr;
+}
+.ref-shoveler {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+}
+.ref-header {
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ref-pages {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+}
+.ref-title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.ref-product-history {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px 250px;
+  column-gap: 20px;
+  max-width: 1480px;
+}
+.ref-product-preview-history {
+  display: grid;
+  grid-template-rows: 160px 1fr;
+}
+.product-preview-history-img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding-right: 20px;
+}
+.product-preview-img-details {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 20px;
+}
+.product-preview-name {
+  color: #007185;
+}
+.product-history-rating {
+  color: orange;
+  display: flex;
+  white-space: nowrap;
+  padding-top: 5px;
+}
+.product-history-rating p {
+  padding-left: 8px;
+  color: #007185;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+.fa-star-half-stroke {
+  font-size: 15px;
+}
+.product-price-history {
+  font-size: 22px;
+  padding-top: 5px;
+}
+.product-left-history {
+  padding-top: 5px;
+  font-size: 13;
+}
+.ref-signin {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ref-signin p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.signin-button-degine button {
+  padding: 10px 110px 10px 110px;
+  background-color: rgb(255, 213, 0);
+  box-shadow: inset 5px 5px 10px rgba(255, 251, 0, 0.15);
+  border: 2px solid orange;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.register-link {
+}

@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  max-width: 1500px;
+  margin-left: 10px;
 }
 .hero-massage {
   background-color: white;
@@ -15,17 +17,24 @@
   font-size: 0.85rem;
   width: 80%;
   margin-bottom: 25px;
+  min-width: 1200px;
 }
 .hero-massage a {
   color: #007185;
 }
 /** shop sewction **/
+.main-grid {
+  display: grid;
+  grid-template-rows: 880px 740px 440px 740px 440px 740px;
+  row-gap: 20px;
+}
 .shop-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 20px;
   column-gap: 20px;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 0px 20px;
+  max-width: 1480px;
 }
 .box {
   height: 420px;
@@ -44,6 +53,11 @@
   display: flex;
   align-items: center;
   color: #007185;
+  cursor: pointer;
+}
+.show-category:hover {
+  color: #cc0c39;
+  text-decoration: underline;
 }
 .gategory-title {
   display: flex;
@@ -66,6 +80,7 @@
   margin-right: 20px;
   margin-left: 20px;
   padding-left: 20px;
+  max-width: 1460px;
 }
 .deals-title {
   display: flex;
@@ -78,6 +93,11 @@
   margin-left: 20px;
   padding-top: 5px;
   color: #007185;
+  cursor: pointer;
+}
+.deals-title .deals-view-all:hover {
+  color: #cc0c39;
+  text-decoration: underline;
 }
 .product-box1 {
   display: grid;
@@ -86,8 +106,9 @@
 
 .product-preview {
   display: grid;
-  grid-template-columns: 277px 277px 277px 277px 277px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 20px;
+  padding-right: 20px;
 }
 .product-picture-preview-align {
   height: 80%;
@@ -104,6 +125,7 @@
 .product-details-box1 {
   margin-bottom: 100px;
   padding-left: 5px;
+  cursor: pointer;
 }
 .offer {
   display: flex;
@@ -130,4 +152,49 @@
 }
 .product-price strong {
   font-size: 13px;
+}
+/** second row box 2 starts here**/
+.second-row-box2 {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  height: 360px;
+  max-width: 1480px;
+}
+.deals-title-box2 {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+}
+/** product preview starts here **/
+.prdouct-recent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  margin-left: 10px;
+}
+.product-recent-align {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  max-width: 300px;
+}
+.recent-product-preview-box1 {
+  height: 90%;
+  mix-blend-mode: multiply;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.shop-section-row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  column-gap: 20px;
+  max-width: 1480px;
 }
