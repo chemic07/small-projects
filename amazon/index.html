@@ -5,102 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .main-grid {
+      .nav-bar {
+        background-color: lightblue;
+        height: 70px;
         display: grid;
-        grid-template-rows: 400px 400px 400px;
-        row-gap: 20px;
-        column-gap: 20px;
+        grid-template-columns: 200px 1fr 200px;
       }
-      .main {
+      .left-nav-bar {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .logo {
+        height: 70px;
+
+        background-size: cover;
+      }
+      .middle-nav-bar {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 20px;
-        row-gap: 20px;
-        height: 400px;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 70px 1fr 70px;
+        height: 50px;
+        margin: 10px;
       }
-      .div1 {
-        background-color: red;
-        display: grid;
-        grid-template-rows: 30px 1fr;
-      }
-      .div2 {
-        background-color: rgb(0, 255, 132);
-      }
-      .div3 {
-        background-color: rgb(234, 8, 255);
-      }
-      .main2 {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        height: 400px;
-        row-gap: 20px;
-      }
-      .hey1 {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-      }
-      .lamo {
+
+      .right-nav-bar {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: white;
-      }
-      .lol {
-        display: grid;
-        grid-template-rows: 1frx 60px;
       }
     </style>
   </head>
   <body>
-    <div class="main-grid">
-      <div class="main">
-        <div class="div1">dib1</div>
-        <div class="div2">div2</div>
-        <div class="div3">div3</div>
-        <div class="div1">dib1</div>
-        <div class="div2">div2</div>
-        <div class="div3">div3</div>
+    <div class="nav-bar">
+      <div class="left-nav-bar">
+        <img class="logo" src="images/amazon_logo.png" />
       </div>
-      <div class="main2">
-        <div class="div1">
-          <div>text</div>
-          <!-- here starts the main div-->
-          <div class="hey1">
-            <div class="lol" style="background-color: rgb(188, 183, 183)">
-              <div class="lamo">
-                <img class="image1" src="images/product1.jpg" alt="" />
-              </div>
-              <div class="title">hey its me</div>
-            </div>
-            <div style="background-color: orange">hey</div>
-            <div style="background-color: aqua">hey</div>
-          </div>
-        </div>
-        <div class="div2">div2</div>
+
+      <div class="middle-nav-bar">
+        <select class="search-select">
+          <option>all</option>
+        </select>
+        <input type="text" placeholder="Search" />
+        <div>hello</div>
       </div>
-      <div class="main">
-        <div class="div1">dib1</div>
-        <div class="div2">div2</div>
-        <div class="div3">div3</div>
-        <div class="div1">dib1</div>
-        <div class="div2">div2</div>
-        <div class="div3">div3</div>
-      </div>
-      <div class="main2">
-        <div class="div1">
-          <div>text</div>
-          <div class="hey1">
-            <div style="background-color: black">hey</div>
-            <div>hey</div>
-            <div style="background-color: black">hey</div>
-            <div>hey</div>
-            <div style="background-color: black">hey</div>
-          </div>
-          <div>text</div>
-        </div>
-        <div class="div2">div2</div>
-      </div>
+      <div class="right-nav-bar">hii</div>
     </div>
   </body>
 </html>

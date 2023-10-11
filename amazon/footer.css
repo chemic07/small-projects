@@ -30,7 +30,7 @@
 }
 .ref-product-history {
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px 250px 250px;
+  grid-template-columns: 240px 240px 240px 240px 240px 240px;
   column-gap: 20px;
   max-width: 1480px;
 }
@@ -105,4 +105,39 @@
   font-size: 18px;
 }
 .register-link {
+}
+.footer-frame {
+  background-color: #131a22;
+  display: grid;
+  grid-template-rows: 50px 450px 500px;
+}
+.back-to-top {
+  background-color: #37475a;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+}
+.amazon-about {
+  height: 450px;
+  background-color: #232f3e;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.get-to-know {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-foot-first {
+  list-style: none;
+  line-height: 30px;
+}
+.amazon-products {
+  height: 450px;
 }
