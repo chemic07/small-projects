@@ -3,52 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>footer</title>
     <style>
-      .nav-bar {
-        background-color: lightblue;
-        height: 70px;
-        display: grid;
-        grid-template-columns: 200px 1fr 200px;
+      * {
+        margin: 0;
+        padding: 0;
       }
-      .left-nav-bar {
+      .contanier {
+        background-color: rgb(139, 160, 195);
+      }
+      ul {
+        list-style: none;
+      }
+      h4 {
+        color: white;
+        padding-left: 30px;
+      }
+      li {
+        color: black;
+      }
+      .footer-row {
         display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        flex-wrap: wrap;
       }
-      .logo {
-        height: 70px;
-
-        background-size: cover;
-      }
-      .middle-nav-bar {
-        display: grid;
-        grid-template-columns: 70px 1fr 70px;
-        height: 50px;
-        margin: 10px;
-      }
-
-      .right-nav-bar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      .foot-col {
+        width: 25%;
       }
     </style>
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="left-nav-bar">
-        <img class="logo" src="images/amazon_logo.png" />
+    <footer>
+      <div class="contanier">
+        <div class="footer-row">
+          <div class="foot-col">
+            <h4>company</h4>
+            <ul>
+              <li>iaksd</li>
+              <li>iaksd</li>
+              <li>iaksd</li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>company</h4>
+            <ul>
+              <li>iaksd</li>
+              <li>iaksd</li>
+              <li>iaksd</li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>company</h4>
+            <ul>
+              <li>iaksd</li>
+              <li>iaksd</li>
+              <li>iaksd</li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>company</h4>
+            <ul>
+              <li>iaksd</li>
+              <li>iaksd</li>
+              <li>iaksd</li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <div class="middle-nav-bar">
-        <select class="search-select">
-          <option>all</option>
-        </select>
-        <input type="text" placeholder="Search" />
-        <div>hello</div>
-      </div>
-      <div class="right-nav-bar">hii</div>
-    </div>
+    </footer>
   </body>
 </html>

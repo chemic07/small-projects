@@ -123,8 +123,8 @@
 .amazon-about {
   height: 450px;
   background-color: #232f3e;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   color: white;
   padding-left: 200px;
   padding-right: 200px;
