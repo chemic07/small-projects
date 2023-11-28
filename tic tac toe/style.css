@@ -21,11 +21,13 @@ nav ul {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  flex-wrap: wrap;
+  position: relative;
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 10vw);
-  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 15vw);
+  grid-template-rows: repeat(3, 15vw);
 }
 .box {
   border: 2px solid black;
@@ -40,9 +42,11 @@ nav ul {
 }
 .gameInfo {
   padding: 0 34px;
+  margin-top: 34px;
 }
-.imgbox {
-  display: none;
+.imgbox img {
+  width: 0;
+  transition: width 1s ease-in-out;
 }
 
 .br-0 {
@@ -56,4 +60,30 @@ nav ul {
 }
 .bb-0 {
   border-bottom: 0;
+}
+#reset {
+  margin: 0 23px;
+  padding: 3px 6px;
+  background-color: rgb(255, 242, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.info {
+  font-size: 23px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.textinfoleft {
+  padding-top: 20px;
+}
+@media screen and (max-width: 950px) {
+  #contest {
+    width: 90%;
+  }
+}
+.gameInfo h1 {
+  font-size: 2.5rem;
 }
