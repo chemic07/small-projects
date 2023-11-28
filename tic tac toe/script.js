@@ -60,6 +60,7 @@ Array.from(boxes).forEach((element) => {
 });
 
 // Add event listener to reset button
+music.play();
 document.getElementById("reset").addEventListener("click", () => {
   let boxtexts = document.querySelectorAll(".boxtext");
   Array.from(boxtexts).forEach((element) => {
