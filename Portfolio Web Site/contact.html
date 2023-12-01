@@ -11,32 +11,62 @@
       <div class="sidebar">
         <nav>
           <ul>
-            <li><a href="/"></a>Home</li>
-            <li><a href="/intro.html"></a>My Intro</li>
-            <li><a href="/servies.html"></a>servies</li>
-            <li><a href="/blog.html"></a>Blog</li>
-            <li><a href="/contact.html"></a>contect Me</li>
+            <li><a href="index.html"></a>Home</li>
+            <li><a href="intro.html"></a>My Intro</li>
+            <li><a href="servies.html"></a>servies</li>
+            <li><a href="blog.html"></a>Blog</li>
+            <li><a href="contact.html"></a>contect Me</li>
           </ul>
         </nav>
       </div>
-      <div class="main">
-        <div class="infoContainer">
-          <div class="devinfo">
-            <div class="hello">Hi This is</div>
-            <div class="name">Raj Lodhi</div>
-            <div class="about">Developer,3D Genralist, Editor</div>
-            <div class="moreabout">
-              I am a developer and I love to drink jabalpur and i love 3d movies
-            </div>
-            <div class="buttons">
-              <button>Download CV</button>
-              <button>contact Me</button>
+      <div class="contactform">
+        <h1>Contact me for work/general inquiries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input
+              type="name"
+              class="form-control"
+              id="clientemail"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="clientemail"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email % phone with anyone else.
             </div>
           </div>
-          <div class="devpic">
-            <img src="images/dev.png" alt="Raj Lodhi" />
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Enquiry</label>
+            <input
+              type="enquiry"
+              class="form-control"
+              id="clientemail"
+              aria-describedby="emailHelp"
+            />
           </div>
-        </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">Phone Number</label>
+            <input type="phone" class="form-control" id="clientphone" />
+          </div>
+          <div class="mb-3" id="form-check">
+            <input type="checkbox" class="form-check-input" id="isclient" />
+            <label class="form-check-label" for="isclient"
+              >I wnat to work for on a project with me</label
+            >
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
       </div>
     </div>
     <script src="script.js"></script>
